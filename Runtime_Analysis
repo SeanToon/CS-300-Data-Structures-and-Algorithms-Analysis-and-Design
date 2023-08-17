@@ -1,0 +1,79 @@
+Runtime Analysis
+Vector
+
+Code	                    Line Cost	# Times Executes   Total Cost
+for all courses in vector 	1	        n	        n
+Print out the course info	1	        n	        n
+                                                Total Cost	2n 
+                                                Runtime	        O(n)
+
+
+Code	                               Line Cost	# Times Executes    Total Cost
+Check for matching course in vector 	   1	                n	         n
+Print out the course info	           1	                1	         1
+For each prerequisite of the course	   1	                n	         n
+Print the prerequisite course info	   1	                n	         n
+                                                                Total Cost	 3n + 1
+                                                                Runtime	         O(n)
+
+Advantages of a vector data structure:
+-	Simple logic that is easy to code and use.
+-	Fast printing and memory allocation runtimes.
+Disadvantages:
+-	Slow runtimes for searching through vector.
+
+
+Hash Table
+
+Code	                            Line Cost	# Times Executes   Total Cost
+for all courses in the hash table 	1	        n	       n
+Print out the course info	        1	        n	       n
+                                                        Total Cost     2n
+                                                        Runtime        O(n)
+
+Code	                                  Line Cost	# Times Executes	Total Cost
+Check for matching course in hash table       1	                1	             1
+Print out course information	              1	                1	             1
+For each prerequisite of the course	      1 	        n	             n
+Print the prerequisite course info	      1	                n	             n
+                                                        	Total Cost	     2n + 2
+                                                                Runtime	             O(n)
+
+Advantages of a hash table data structure:
+-	Fast access runtime.
+-	Fast printing runtime.
+Disadvantages:
+-	Do not maintain specific order, may require sorting.
+-	Memory usage/ collision handling.
+
+Binary Search Tree
+
+Code	                                    Line Cost	# Times Executes  Total Cost
+for all courses in the binary search tree	1	        n	      n
+Print out the course info	                1	        n	      n
+                                                                Total Cost    2n
+                                                                Runtime	      O(n)
+
+Code	                                    Line Cost	# Times Executes  Total Cost
+Check for matching course number in tree	1	      Log(n)	    Log(n)
+Check to see if course matches	                1	      Log(n)	    Log(n)
+Print out course info	                        1	        1	      1
+For each prerequisite of course              	1	        n	      n
+Print the prerequisite course info	        1	        n	      n
+                                                                Total Cost    2n + 2log(n) + 1
+                                                                Runtime	      Log(n)
+
+Advantages of a binary search tree data structure:
+-	Ordered structure.
+-	Fast print all runtime.
+Disadvantages:
+-	Potentially long runtime for finding chosen course.
+-	Tree structure requires more memory than other data structures.
+
+Recommendation
+
+My recommended data structure for the data structure that I will most likely use in my code is a hash table. A hash table is the most efficient data 
+structure for the project because of its capability to access data the quickest.
+All of the data structures have similar runtimes for a print all function, but a hash table will access and print a chosen course the fastest. 
+
+
