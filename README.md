@@ -1,51 +1,23 @@
 # Course_Planner
-Course planner for ABCU University 
 
-Problems included and solved in this course:
-- Identifying and applying abstract data types:
-  1. List
-  2. Stack
-  3. Queue
-  4. Graph
-  5. Trees
-  6. Heaps and Treaps
-  7. Balanced Trees
-  8. Hash Tables
-  9. B-Trees
-  10. Sets
-- Creating different algorithms:
-  1. Recursive
-  2. Searching
-  3. Inserting
-  4. Removing
-  5. Traversing
-  7. Greedy
-  8. Basics (Creating arrays/vectors, iterating, resizing, debugging, swapping, using libraries)
-  9. Sorting (insertion, selection, shell, quicksort, merge, radix, fast sorting)
-- Function complexity analysis
+Throughout this course, I encountered a variety of challenges and solved numerous problems that helped me grow as a programmer. The key areas of focus included identifying and applying abstract data types (such as Lists, Stacks, Queues, Graphs, Trees, Heaps, Hash Tables, and B-Trees) and creating various types of algorithms, including recursive, searching, inserting, removing, traversing, and greedy algorithms. I also worked with sorting algorithms such as insertion, selection, shell, quicksort, merge, radix, and fast sorting. Additionally, I gained a deeper understanding of function complexity analysis and best practices for debugging, resizing, and using libraries.
 
 Main Project Problems:
+Project One:
+The first project required me to expand pseudocode to meet the requirements of ABCU, which involved printing a list of all the Computer Science courses in alphanumeric order and displaying a course's title and prerequisites.
 
-Project One -
-Expand pseudocode to meet the rest of the requirements of ABCU. Directly respond to the two requirements; print a list of all the Computer Science courses in alphanumeric order and for a given course, print out its title and prerequisites.
+Approach to the Problem: I began by writing pseudocode to align with each requirement. After developing the pseudocode, I evaluated the run-time and memory usage for each data structure used. Based on this analysis, I was able to recommend the most appropriate data structure for the final project.
 
-How did I approach the problem?
+Overcoming Roadblocks: One of the main challenges I faced was evaluating the run-time and memory usage of each data structure. Initially, I struggled to recall how to properly calculate run-times. However, by doing some research, I refreshed my understanding and successfully completed the assignment. Additionally, analyzing my pseudocode to evaluate run-times helped me improve the quality and efficiency of my code.
 
-I began writing pseudocode to follow the requirements for each data type. After writing all the pseudocode, I evaluated the run-time and memory of the code for each data structure. Based on my analysis, I was able to make a recommendation for which data structure would be best to use for the final project.
+Project Two:
+For the second project, I moved forward by writing the final code based on the requirements from ABCU.
 
-How did I overcome any roadblocks while going through the activities or project?
+Approach to the Problem: I began by reviewing all customer requirements, previous assignments, and resources provided for the project. I then used a hash table sample code I had previously created as a template to begin developing the final code. After that, I modified the code to meet the new customer requirements and to fit the data provided by ABCU.
 
-One roadblock that I encountered while going through the activity was how to correctly evaluate the run-time and memory of the code for each data structure. At first, I didn't remember how to correctly calculate run-times, but I was able to do simple research to refresh my memory and complete the assignment. Analyzing my pseudocode to evaluate runtimes also allowed me to edit and better review my code.
+Overcoming Roadblocks: Writing the code to input, store, and utilize the data provided by ABCU was relatively straightforward, but there were several challenges in ensuring the format matched ABCU's specifications. This required a significant amount of time spent on debugging, testing, and revising the code to ensure it met the necessary standards.
 
-Project Two -
-Move forward with the project by writing the final code.
+Reflection and Growth:
+These projects significantly expanded my approach to designing software and developing programs. I gained a deep understanding of various abstract data types and learned how to apply them in different contexts. I also developed the ability to write a wide range of algorithms, each tailored to specific data structures. By learning about the strengths and weaknesses of each data type and algorithm, I now have a better sense of which ones to choose based on the requirements of a program and the available system resources. This knowledge has enabled me to write more efficient and effective code.
 
-How did I approach the problem?
-
-First, I reviewed all the customer requirements, past assignments, and resources related to the project. I then used sample code of using a hash table that I created as a template to begin with the final code. I edited the code for the new customer requirements and the data that ABCU provided.
-
-How did I overcome roadblocks while going through the activities or project?
-
-There were many roadblocks that I encountered while writing the final code. Writing correct code to input, store and use the data that ABCU provided was easy, but I went through a timely process of writing code, debugging and editing to fit the format that ABCU required. 
-
-The projects have expanded my approach to designing software and developing programs. I have learned many different types of abstract data types and how to apply them in different ways in code. I also have learned how to write many different types of algorithms that I can apply to the numerouse data types. Learning about all of the different data types and algorithms has given me a better understanding about which ones are best to use depending on the requirements of a program and the amount of resources available in order to write the most efficient and effective code possible. The projects have evolved the way that I write programs so that they are maintainable, readable and adaptable. I have learned more about and gained more experience with collecting requirements of a project, choosing the best algorithms, choosing the best data types, writing pseudocode, understanding run-time complexities, debugging, and writing organized, commented, clear, consice code. Although, the practices of writing programs that are maintainable, readable, and adaptable can be used for every language, I now have more experience with using the C++ language. 
+The projects also improved my ability to write maintainable, readable, and adaptable code. I now have a clearer understanding of how to collect project requirements, choose the best algorithms and data structures, write pseudocode, analyze run-time complexities, debug effectively, and produce well-organized, concise code. While these practices are applicable across all programming languages, this course has given me valuable experience with C++ specifically, which I plan to carry forward in my future projects.
